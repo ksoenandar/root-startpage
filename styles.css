@@ -41,6 +41,9 @@ main {
   flex-wrap: wrap;
   justify-content: center;
 }
+img {
+  width: 128px;
+}
 
 .header {
   display: flex;
@@ -155,12 +158,9 @@ main {
 
 .card__name {
   font-weight: 600;
-
   transform: translate(-50%, -50%);
-
   position: absolute;
-  bottom: -25%;
+  bottom: -35%;
   left: 50%;
-
   transition: 0.2s;
 }
