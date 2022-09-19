@@ -109,7 +109,13 @@ const CARDS = [
     icon: "",
     link: "https://app.periscopedata.com/app/myzeller/",
     img: "../root-startpage/icons/data_counter_widget_alt.png"
-  },  
+  },
+    {
+    name: "Mixpanel",
+    icon: "",
+    link: "https://mixpanel.com/project/2784629/view/3319469/app/dashboards#id=3791461",
+    img: "../root-startpage/icons/avanza_alt"
+  },   
   {
     name: "Lever",
     icon: "",
