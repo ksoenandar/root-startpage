@@ -114,7 +114,7 @@ const CARDS = [
     name: "Mixpanel",
     icon: "",
     link: "https://mixpanel.com/project/2784629/view/3319469/app/dashboards#id=3791461",
-    img: "../root-startpage/icons/avanza_alt"
+    img: "../root-startpage/icons/avanza_alt.png"
   },   
   {
     name: "Lever",
