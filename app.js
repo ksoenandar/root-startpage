@@ -8,25 +8,6 @@ const NAME = "Zellerite";
 
 const CARDS = [
   {
-    name: "Gmail",
-    icon: "",
-    link: "https://mail.google.com/mail/u/0/#inbox",
-    img: "../root-startpage/icons/email.png"
-  },
-  {
-    name: "Calendar",
-    icon: "",
-    link: "https://calendar.google.com/calendar/u/0/r/week?tab=mc&pli=1",
-    img: "../root-startpage/icons/google_calendar.png"
-  },
-  {
-    name: "Google Meet",
-    icon: "",
-    link: "https://meet.google.com",
-    img: "../root-startpage/icons/google_meet.png"
-  },
-
-  {
     name: "Cards of Interest",
     icon: "",
     link: "https://npco-dev.atlassian.net/wiki/spaces/PROD/pages/1413808314/Cards+of+Interest",
@@ -85,12 +66,6 @@ const CARDS = [
     icon: "",
     link: "https://dashboard.myzeller.com/portal/overview",
     img: "../root-startpage/icons/health.png"
-  },
-  {
-    name: "Figma",
-    icon: "",
-    link: "https://www.figma.com/files/team/948006490956154607/Zeller?fuid=988591908120225735",
-    img: "../root-startpage/icons/huawei_themes.png"
   },
   {
     name: "Trello",
