@@ -11,97 +11,91 @@ const CARDS = [
     name: "Cards of Interest",
     icon: "",
     link: "https://npco-dev.atlassian.net/wiki/spaces/PROD/pages/1413808314/Cards+of+Interest",
-    img: "../root-startpage/icons/matpriskollen.png"
+    img: "../payment-app-forms/icons/matpriskollen.png"
   },
   {
     name: "Product Confluence",
     icon: "",
     link: "https://npco-dev.atlassian.net/wiki/spaces/PROD/overview?homepageId=48529540",
-    img: "../root-startpage/icons/confluence.png"
-  },
-    {
-    name: "Zeller Dev",
-    icon: "",
-    link: "https://npco-dev.atlassian.net/jira/software/c/projects/ZD/boards/20/backlog?issueLimit=100",
-    img: "../root-startpage/icons/gfx_tool.png"
+    img: "../payment-app-forms/icons/confluence.png"
   },
   {
     name: "Jira",
     icon: "",
     link: "https://npco-dev.atlassian.net/jira/projects",
-    img: "../root-startpage/icons/jira.png"
+    img: "../payment-app-forms/icons/jira.png"
   },
   {
     name: "JIRA Issue Search",
     icon: "",
     link: "https://npco-dev.atlassian.net/issues/?jql=",
-    img: "../root-startpage/icons/clip_stack.png"
+    img: "../payment-app-forms/icons/clip_stack.png"
   },
   {
     name: "Sprint Planning",
     icon: "",
     link: "https://npco-dev.atlassian.net/wiki/spaces/PROD/pages/1203666949/Sprint+Planning",
-    img: "../root-startpage/icons/serenity_alt.png"
+    img: "../payment-app-forms/icons/serenity_alt.png"
   },
   {
     name: "Releases",
     icon: "",
     link: "https://npco-dev.atlassian.net/wiki/spaces/PROD/pages/1266122826/Release+Planning",
-    img: "../root-startpage/icons/hyperion.png"
+    img: "../payment-app-forms/icons/hyperion.png"
   },
   {
     name: "Hubspot",
     icon: "",
     link: "https://app.hubspot.com/",
-    img: "../root-startpage/icons/contacts_2.png"
+    img: "../payment-app-forms/icons/hubspot.png"
   },
   {
     name: "Zeller Dev",
     icon: "",
     link: "https://dashboard.myzeller.dev/portal/overview",
-    img: "../root-startpage/icons/health_mate.png"
+    img: "../payment-app-forms/icons/zeller_dev.png"
   },
   {
     name: "Zeller Prod",
     icon: "",
     link: "https://dashboard.myzeller.com/portal/overview",
-    img: "../root-startpage/icons/health.png"
+    img: "../payment-app-forms/icons/zeller_prod.png"
   },
   {
     name: "Trello",
     icon: "",
     link: "https://trello.com/b/OgDVzuu2/zeller-development",
-    img: "../root-startpage/icons/trello.png"
+    img: "../payment-app-forms/icons/trello.png"
   },
   {
     name: "Productboard",
     icon: "",
     link: "https://zeller.productboard.com",
-    img: "../root-startpage/icons/subscriptions_alt.png"
+    img: "../payment-app-forms/icons/productboard.png"
   },
   {
     name: "Periscope Data",
     icon: "",
     link: "https://app.periscopedata.com/app/myzeller/",
-    img: "../root-startpage/icons/data_counter_widget_alt.png"
+    img: "../payment-app-forms/icons/periscope.png"
   },
     {
     name: "Mixpanel",
     icon: "",
     link: "https://mixpanel.com/project/2784629/view/3319469/app/dashboards#id=3791461",
-    img: "../root-startpage/icons/avanza_alt.png"
+    img: "../payment-app-forms/icons/avanza_alt.png"
   }, 
     {
     name: "Snapdrop",
     icon: "",
     link: "https://snapdrop.net/#",
-    img: "../root-startpage/icons/clone_phone.png"
+    img: "../payment-app-forms/icons/clone_phone.png"
   },   
   {
     name: "Lever",
     icon: "",
     link: "https://hire.lever.co/",
-    img: "../root-startpage/icons/contacts_alt_2.png"
+    img: "../payment-app-forms/icons/contacts_alt_2.png"
   },  
 ];
 

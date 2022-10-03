@@ -20,7 +20,7 @@ body {
   font-family: "Open Sans", sans-serif;
 
   padding: 2rem 4rem;
-
+  background-image: url('distortion_8.jpg');
   background-color: var(--background);
   box-sizing: border-box;
 }
