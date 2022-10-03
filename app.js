@@ -8,145 +8,94 @@ const NAME = "Zellerite";
 
 const CARDS = [
   {
-    name: "Gmail",
-    emoji:"📧",
-    image:"gmail",
-    icon: "ri-mail-fill",
-    link: "https://mail.google.com/mail/u/0/#inbox",
-  },
-  {
-    name: "Calendar",
-    emoji:"🗓",
-    image:"calendar",
-    icon: "ri-calendar-fill",
-    link: "https://calendar.google.com/calendar/u/0/r/week?tab=mc&pli=1",
-  },
-  {
-    name: "Google Meet",
-    emoji:"📸",
-    image:"calendar",
-    icon: "ri-calendar-fill",
-    link: "https://meet.google.com",
-  },
-
-  {
     name: "Cards of Interest",
-    emoji:"🎴",
-    image:"confluence",
-    icon: "ri-file-list-fill",
+    icon: "",
     link: "https://npco-dev.atlassian.net/wiki/spaces/PROD/pages/1413808314/Cards+of+Interest",
+    img: "../root-startpage/icons/matpriskollen.png"
   },
   {
     name: "Product Confluence",
-    emoji:"📄",
-    image:"confluence",
-    icon: "ri-file-list-fill",
+    icon: "",
     link: "https://npco-dev.atlassian.net/wiki/spaces/PROD/overview?homepageId=48529540",
-  },
-    {
-    name: "Zeller Dev",
-    emoji:"❤️",
-    image:"jira",
-    icon: "ri-task-fill",
-    link: "https://npco-dev.atlassian.net/jira/software/c/projects/ZD/boards/20/backlog?issueLimit=100",
+    img: "../root-startpage/icons/confluence.png"
   },
   {
     name: "Jira",
-    emoji:"💎",
-    image:"jira",
-    icon: "ri-task-fill",
+    icon: "",
     link: "https://npco-dev.atlassian.net/jira/projects",
+    img: "../root-startpage/icons/jira.png"
   },
   {
     name: "JIRA Issue Search",
-    emoji:"🔍",
-    image:"jira",
-    icon: "ri-task-fill",
+    icon: "",
     link: "https://npco-dev.atlassian.net/issues/?jql=",
+    img: "../root-startpage/icons/clip_stack.png"
   },
   {
     name: "Sprint Planning",
-    emoji:"🏃‍♂️",
-    image:"jira",
-    icon: "ri-task-fill",
+    icon: "",
     link: "https://npco-dev.atlassian.net/wiki/spaces/PROD/pages/1203666949/Sprint+Planning",
+    img: "../root-startpage/icons/serenity_alt.png"
   },
   {
     name: "Releases",
-    emoji:"🚆",
-    image:"jira",
-    icon: "ri-task-fill",
+    icon: "",
     link: "https://npco-dev.atlassian.net/wiki/spaces/PROD/pages/1266122826/Release+Planning",
+    img: "../root-startpage/icons/hyperion.png"
   },
   {
     name: "Hubspot",
-    emoji:"📇",
-    image:"jira",
-    icon: "ri-task-fill",
+    icon: "",
     link: "https://app.hubspot.com/",
+    img: "../root-startpage/icons/hubspot.png"
   },
   {
     name: "Zeller Dev",
-    emoji:"⚙️",
-    image:"cash_app_alt",
-    icon: "ri-dashboard-line",
+    icon: "",
     link: "https://dashboard.myzeller.dev/portal/overview",
+    img: "../root-startpage/icons/zeller_dev.png"
   },
   {
     name: "Zeller Prod",
-    emoji:"🚀",
-    image:"cash_app",
-    icon: "ri-dashboard-fill",
+    icon: "",
     link: "https://dashboard.myzeller.com/portal/overview",
-  },
-  {
-    name: "Figma",
-    emoji:"🎨",
-    image:"figma",
-    icon: "ri-fire-fill",
-    link: "https://www.figma.com/files/team/948006490956154607/Zeller?fuid=988591908120225735",
-  },
-  {
-    name: "Hotjar",
-    emoji:"🔥",
-    image:"flashify",
-    icon: "ri-fire-fill",
-    link: "https://insights.hotjar.com/",
+    img: "../root-startpage/icons/zeller_prod.png"
   },
   {
     name: "Trello",
-    emoji:"📥",
-    image:"trello",
-    icon: "ri-trello-fill",
+    icon: "",
     link: "https://trello.com/b/OgDVzuu2/zeller-development",
-  },
-  {
-    name: "Excalidraw",
-    emoji:"🗡",
-    image:"tinder_alt",
-    icon: "ri-quill-pen-fill",
-    link: "https://excalidraw.com/",
+    img: "../root-startpage/icons/trello.png"
   },
   {
     name: "Productboard",
-    emoji:"🍱",
-    image:"clip_stack",
-    icon: "ri-list-check-2",
+    icon: "",
     link: "https://zeller.productboard.com",
+    img: "../root-startpage/icons/productboard.png"
   },
   {
     name: "Periscope Data",
-    emoji:"📈",
-    image:"clip_stack",
-    icon: "ri-list-check-2",
+    icon: "",
     link: "https://app.periscopedata.com/app/myzeller/",
-  },  
+    img: "../root-startpage/icons/periscope.png"
+  },
+    {
+    name: "Mixpanel",
+    icon: "",
+    link: "https://mixpanel.com/project/2784629/view/3319469/app/dashboards#id=3791461",
+    img: "../root-startpage/icons/avanza_alt.png"
+  }, 
+    {
+    name: "Snapdrop",
+    icon: "",
+    link: "https://snapdrop.net/#",
+    img: "../root-startpage/icons/clone_phone.png"
+  },   
   {
     name: "Lever",
-    emoji:"📨",
-    image:"clip_stack",
-    icon: "ri-list-check-2",
+    icon: "",
     link: "https://hire.lever.co/",
+    img: "../root-startpage/icons/contacts_alt_2.png"
   },  
 ];
 
@@ -213,46 +162,86 @@ const formatDigit = (digit) => {
   return digit > 9 ? `${digit}` : `0${digit}`;
 };
 
+
 /******************/
-/* CARDS FUNCTION */
+/* ICON CARDS FUNCTION */
 /******************/
 
 const printCards = () => {
   for (const card of CARDS) {
     let currentCard = document.createElement("a");
-    let currentCardImage = document.createElement("img");
-    currentCardImage.appendChild(document.createTextNode(card.image));
     let currentCardText = document.createElement("p");
     currentCardText.appendChild(document.createTextNode(card.name));
-    let currentCardEmoji = document.createElement("p");
-    currentCardEmoji.appendChild(document.createTextNode(card.emoji));
-    //currentCardEmoji.classList.add(card.emoji);
-    //let currentCardIcon = document.createElement("i");
-    //currentCardIcon.classList.add(card.icon);
+    let currentCardIcon;
+
+    if (card.icon === "") {
+      currentCardIcon = document.createElement("p");
+      var useElem = document.createElement("img");
+      useElem.setAttribute("src", card.img);
+
+      currentCardIcon.appendChild(useElem);     
+    } else {
+   //   currentCardIcon = document.createElement("i");
+   //   currentCardIcon.classList.add(card.icon);
+    }
+
 
     // Style the Card Element
     currentCard.classList.add("card");
     currentCard.href = card.link;
 
-    // Style the Card Image
-    currentCardImage.classList.add("card__image");
-    currentCardImage.src = card.image;
-
-    // Style the Emoji
-    currentCardEmoji.classList.add("card__emoji");    
-
     // Style the Icon
-    //currentCardIcon.classList.add("card__icon");
+    currentCardIcon.classList.add("card__icon");
 
     // Style the Text
     currentCardText.classList.add("card__name");
 
-    //currentCard.append(currentCardIcon);
-    currentCard.append(currentCardEmoji);
+    currentCard.append(currentCardIcon);
     currentCard.append(currentCardText);
     cardContainer.appendChild(currentCard);
   }
 };
+
+///******************/
+///* CARDS FUNCTION */
+///******************/
+//
+//const printCards = () => {
+//  for (const card of CARDS) {
+//    let currentCard = document.createElement("a");
+//    let currentCardImage = document.createElement("img");
+//    currentCardImage.appendChild(document.createTextNode(card.image));
+//    let currentCardText = document.createElement("p");
+//    currentCardText.appendChild(document.createTextNode(card.name));
+//    let currentCardEmoji = document.createElement("p");
+//    currentCardEmoji.appendChild(document.createTextNode(card.emoji));
+//    //currentCardEmoji.classList.add(card.emoji);
+//    //let currentCardIcon = document.createElement("i");
+//    //currentCardIcon.classList.add(card.icon);
+//
+//    // Style the Card Element
+//    currentCard.classList.add("card");
+//    currentCard.href = card.link;
+//
+//    // Style the Card Image
+//    currentCardImage.classList.add("card__image");
+//    currentCardImage.src = card.image;
+//
+//    // Style the Emoji
+//    currentCardEmoji.classList.add("card__emoji");    
+//
+//    // Style the Icon
+//    //currentCardIcon.classList.add("card__icon");
+//
+//    // Style the Text
+//    currentCardText.classList.add("card__name");
+//
+//    //currentCard.append(currentCardIcon);
+//    currentCard.append(currentCardEmoji);
+//    currentCard.append(currentCardText);
+//    cardContainer.appendChild(currentCard);
+//  }
+//};
 
 /****************/
 /* STARTER CODE */
@@ -261,3 +250,30 @@ const printCards = () => {
 userName.innerHTML = NAME;
 printCards();
 updateDate();
+
+$(document).ready(function() {
+   var accordionTitle = $('.accordion-title');
+   var accordionText = $('.accordion-text');
+   var speed = 300;
+
+   accordionTitle.on('click', function() {
+       var thisAccordion = $(this);
+       var isActive = thisAccordion.hasClass('active');
+
+       if( isActive ) {
+           thisAccordion
+               .removeClass('active')
+               .parent().find('.accordion-text').slideUp(speed);
+       } else {
+           accordionTitle.removeClass('active');
+           accordionText.slideUp(speed);
+           thisAccordion
+               .addClass('active')
+               .parent().find('.accordion-text').slideDown(speed);
+       }
+   });
+
+   if($(window).width() >= 1024){
+    accordionTitle.first().click();
+   }
+});

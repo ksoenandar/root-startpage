@@ -20,7 +20,7 @@ body {
   font-family: "Open Sans", sans-serif;
 
   padding: 2rem 4rem;
-
+  background-image: url('distortion_8.jpg');
   background-color: var(--background);
   box-sizing: border-box;
 }
@@ -40,6 +40,9 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+img {
+  width: 128px;
 }
 
 .header {
@@ -85,7 +88,7 @@ main {
   text-decoration: none;
 
   margin: 2rem;
-  padding: 4rem 8rem;
+  padding: 1rem 2rem;
 
   background-color: var(--background-light);
   border-radius: 21px;
@@ -119,7 +122,7 @@ main {
 }
 
 .card__icon {
-  font-size: 2rem;
+  font-size: 0.2rem;
 
   padding: 1rem;
 
@@ -155,12 +158,9 @@ main {
 
 .card__name {
   font-weight: 600;
-
   transform: translate(-50%, -50%);
-
   position: absolute;
-  bottom: -25%;
+  bottom: -35%;
   left: 50%;
-
   transition: 0.2s;
 }
