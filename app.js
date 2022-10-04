@@ -84,6 +84,12 @@ const CARDS = [
     icon: "",
     link: "https://mixpanel.com/project/2784629/view/3319469/app/dashboards#id=3791461",
     img: "../root-startpage/icons/avanza_alt.png"
+  },
+  {
+    name: "Tracking Plan",
+    icon: "",
+    link: "https://docs.google.com/spreadsheets/d/1MneOh6J_G9iBIX577SRIbdymQXaXBSsCrWkWW3GPafs/edit#gid=57574399",
+    img: "../root-startpage/icons/everday.png"
   }, 
     {
     name: "Snapdrop",
