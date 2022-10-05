@@ -89,7 +89,7 @@ const CARDS = [
     name: "Tracking Plan",
     icon: "",
     link: "https://docs.google.com/spreadsheets/d/1MneOh6J_G9iBIX577SRIbdymQXaXBSsCrWkWW3GPafs/edit#gid=57574399",
-    img: "../root-startpage/icons/everday.png"
+    img: "../root-startpage/icons/everyday.png"
   }, 
     {
     name: "Snapdrop",
