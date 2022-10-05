@@ -21,6 +21,7 @@ body {
 
   padding: 2rem 4rem;
   background-image: url('Distortion_8.jpg');
+  background-size: cover;
   background-color: var(--background);
   box-sizing: border-box;
 }
