@@ -103,6 +103,30 @@ const CARDS = [
     link: "https://hire.lever.co/",
     img: "../root-startpage/icons/contacts_alt_2.png"
   },  
+  {
+    name: "Native Design System",
+    icon: "",
+    link: "https://npco-dev.atlassian.net/jira/software/c/projects/NDS/boards/105",
+    img: "../root-startpage/icons/a_1gallery.png"
+  },  
+  {
+    name: "Payment App",
+    icon: "",
+    link: "https://npco-dev.atlassian.net/jira/software/c/projects/PA/boards/102",
+    img: "../root-startpage/icons/money_lover.png"
+  },  
+  {
+    name: "Payment Module",
+    icon: "",
+    link: "https://npco-dev.atlassian.net/jira/software/c/projects/PM/boards/106",
+    img: "../root-startpage/icons/gravitybox_r.png"
+  },  
+  {
+    name: "Zeller Tablet",
+    icon: "",
+    link: "https://npco-dev.atlassian.net/jira/software/c/projects/CPOC/boards/79",
+    img: "../root-startpage/icons/google_pay_alt.png"
+  },  
 ];
 
 /* -------------------------------------------------------- */
