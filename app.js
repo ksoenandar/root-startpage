@@ -7,6 +7,12 @@
 const NAME = "Zellerite";
 
 const CARDS = [
+    {
+    name: "Atlas",
+    icon: "",
+    link: "https://team.atlassian.com/updates/projects",
+    img: "../root-startpage/icons/Atlas.png"
+  },
   {
     name: "Cards of Interest",
     icon: "",
