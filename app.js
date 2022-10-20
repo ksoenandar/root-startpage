@@ -7,17 +7,17 @@
 const NAME = "Zellerite";
 
 const CARDS = [
-    {
+  {
     name: "Atlas",
-    icon: "",
-    link: "https://npco-dev.atlassian.net/jira/polaris/projects/ZPD/ideas/",
-    img: "../root-startpage/icons/jira_product_discovery.png"
-  },
-{
-    name: "Product Discovery",
     icon: "",
     link: "https://team.atlassian.com/updates/projects",
     img: "../root-startpage/icons/atlas.png"
+  },
+  {
+    name: "Product Discovery",
+    icon: "",
+    link: "https://npco-dev.atlassian.net/jira/polaris/projects/ZPD/ideas",
+    img: "../root-startpage/icons/jira_product_discovery.png"
   },
   {
     name: "Cards of Interest",
