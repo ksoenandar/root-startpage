@@ -11,7 +11,7 @@ const CARDS = [
     name: "Atlas",
     icon: "",
     link: "https://team.atlassian.com/updates/projects",
-    img: "../root-startpage/icons/atlas.png"
+    img: "../root-startpage/icons/Atlas.png"
   },
   {
     name: "Product Discovery",
