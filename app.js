@@ -19,6 +19,13 @@ const CARDS = [
     link: "https://npco-dev.atlassian.net/jira/polaris/projects/ZPD/ideas",
     img: "../root-startpage/icons/jira_product_discovery.png"
   },
+
+  {
+    name: "Key Dates",
+    icon: "",
+    link: "https://www.figma.com/file/gy1vDb4FsZWL0V6Dz2QgY8/Key-Product-Dates?node-id=0%3A1&viewport=813%2C700%2C0.12&t=aUbBgbPOtMfhVwRP-11",
+    img: "../root-startpage/icons/calendar.png"
+  },
   {
     name: "Cards of Interest",
     icon: "",
