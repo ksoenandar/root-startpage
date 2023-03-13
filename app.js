@@ -110,12 +110,6 @@ const CARDS = [
     link: "https://docs.google.com/spreadsheets/d/1MneOh6J_G9iBIX577SRIbdymQXaXBSsCrWkWW3GPafs/edit#gid=57574399",
     img: "../root-startpage/icons/everyday.png"
   }, 
-    {
-    name: "Snapdrop",
-    icon: "",
-    link: "https://snapdrop.net/#",
-    img: "../root-startpage/icons/clone_phone.png"
-  },   
   {
     name: "Lever",
     icon: "",
